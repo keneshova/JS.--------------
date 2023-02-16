@@ -34,10 +34,10 @@ else{
 
 let example4 = [5, 4, 1, 55, 1, 0, 2];
 let example5 = [3, 11, 4, 15, 1, 2, 77];
-if (example4.includes(15)) {
-
-  console.log("yes");
+for (let i = 0; i < example4.length; i++) {
+  if (example4.includes(15[i])) {
+    console.log("yes");
+  }
 }
-else{
-  console.log("no");
-}
+let example6 = ["a", "c", "f", "d", "b"];
+console.log(example6.reverse());//reverse-наоброт
