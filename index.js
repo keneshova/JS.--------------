@@ -18,3 +18,9 @@ console.log(test[1]);
 for(let i = 0; i < example1.length; i++){
   console.log(example1[i]);
 }
+
+for(let i = 0; i < example2.length; i++){
+  for(let j = 0; j < example2.length; j++){
+    console.log(example2[i][j]);
+  }
+}
