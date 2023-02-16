@@ -48,3 +48,18 @@ console.log(example6);
 let example7 = [1, 5, 4, 2, 3, 6];
 example7.sort();
 console.log(example7);
+
+let example8 = [10, 51, 44, 2, 3, 6];
+example7.sort(function(a, b) {
+  return b - a;
+});
+console.log(example8);
+
+let carPrice = [4000, 3000, 4000, 8000, 5000, 3000, 7000, 12000, 100000, 1000];
+let totalPrice = 0;
+for (let i = 0; i < carPrice.length; i++) {
+  totalPrice = totalPrice + carPrice[i];
+}
+console.log(totalPrice);
+console.log(totalPrice / carPrice.length);
+
