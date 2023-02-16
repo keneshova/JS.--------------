@@ -31,3 +31,13 @@ if (example3.includes(6)) { //includes пров-т сущ ли число в м�
 else{
   console.log("no");
 }
+
+let example4 = [5, 4, 1, 55, 1, 0, 2];
+let example5 = [3, 11, 4, 15, 1, 2, 77];
+if (example4.includes(15)) {
+
+  console.log("yes");
+}
+else{
+  console.log("no");
+}
