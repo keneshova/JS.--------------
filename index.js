@@ -61,5 +61,11 @@ for (let i = 0; i < carPrice.length; i++) {
   totalPrice = totalPrice + carPrice[i];
 }
 console.log(totalPrice);
-console.log(totalPrice / carPrice.length);
+console.log(totalPrice / carPrice.lеngth);
+
+carPrice.sort(function(a, b){
+  return a - b;
+});
+let medianPrice = (carPrice[4] + carPrice[5]) / 2;
+console.log(medianPrice);
 
