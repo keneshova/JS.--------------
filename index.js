@@ -18,9 +18,16 @@ console.log(test[1]);
 for(let i = 0; i < example1.length; i++){
   console.log(example1[i]);
 }
-
+//это мультиуровневый массив
 for(let i = 0; i < example2.length; i++){
-  for(let j = 0; j < example2.length; j++){
+  for(let j = 0; j < example2[i].length; j++){
     console.log(example2[i][j]);
   }
+}
+let example3 = [4, 1, 7, 10, 11, 33];
+if (example3.includes(6)) { //includes пров-т сущ ли число в массиве 
+  console.log("yes");
+}
+else{
+  console.log("no");
 }
