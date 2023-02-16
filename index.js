@@ -40,4 +40,11 @@ for (let i = 0; i < example4.length; i++) {
   }
 }
 let example6 = ["a", "c", "f", "d", "b"];
-console.log(example6.reverse());//reverse-наоброт
+console.log(example6.reverse());//reverse-наоброт .можно вызвать без console
+
+example6.sort();//это сортировка и не раьотает с числами 
+console.log(example6);
+
+let example7 = [1, 5, 4, 2, 3, 6];
+example7.sort();
+console.log(example7);
